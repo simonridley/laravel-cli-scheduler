@@ -13,7 +13,7 @@ class ScheduledTask extends Model
         'without_overlapping' => 'boolean',
         'on_one_server' => 'boolean',
         'run_in_background' => 'boolean',
-        'even_in_maintenance_mode' => 'boolean',
+        'in_maintenance_mode' => 'boolean',
         'append_output' => 'boolean',
     ];
 
